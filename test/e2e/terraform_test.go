@@ -10,7 +10,7 @@ import (
 )
 
 func TestExamplesBasic(t *testing.T) {
-	test_helper.RunE2ETest(t, "../../", "examples/basic", terraform.Options{
+	test_helper.RunE2ETest(t, "../../", "examples/azure", terraform.Options{
 		Upgrade: true,
 	}, func(t *testing.T, output test_helper.TerraformOutput) {
 		gotEchoText, ok := output["echo_text"].(string)
