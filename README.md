@@ -52,7 +52,6 @@ Click `generate private key` after GitHub App created.
 | Name                                                                      | Version |
 |---------------------------------------------------------------------------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.2  |
-| <a name="requirement_null"></a> [null](#requirement\_null)                | >= 3.1  |
 
 ## Providers
 
